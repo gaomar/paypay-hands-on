@@ -7,7 +7,7 @@ PAYPAY.Configure({
     clientId: process.env.VUE_APP_API_KEY,
     clientSecret: process.env.VUE_APP_API_SECRET,
     merchantId: process.env.VUE_APP_MERCHANTID,
-    productionMode: true, 
+    productionMode: false, 
 });
 
 /**
